@@ -1,19 +1,19 @@
 class Tct < Formula
   desc "Terminal Card Tracker - a keyboard-driven TUI Trello clone"
   homepage "https://github.com/waschmittel/tct"
-  version "1.4.0"
+  version "1.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/waschmittel/tct/releases/download/v1.4.0/tct-1.4.0-macos-aarch64"
-      sha256 "df689b1b098466fdfdf55badb970d4ebfc58612bbb64bf31dcc266419d551668"
+      url "https://github.com/waschmittel/tct/releases/download/v1.5.0/tct-1.5.0-macos-aarch64"
+      sha256 "d27d1bd8db851026aa3b359a9f5f24cbbafb3ccbb4deb8031ad2f1503353501a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/waschmittel/tct/releases/download/v1.4.0/tct-1.4.0-linux-amd64"
-      sha256 "92e0a8dff76372826ad84fefe521f467b8da3c8377832e5e2ab98b4a38e38551"
+      url "https://github.com/waschmittel/tct/releases/download/v1.5.0/tct-1.5.0-linux-amd64"
+      sha256 "dac660bb0a993a1974e3edeff6cd9402407956cc237ecd251197fb9aba03f903"
     end
   end
 
